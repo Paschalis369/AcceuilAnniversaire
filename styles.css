@@ -1,0 +1,47 @@
+body {
+    background-image: url(./PhotoArielle/Acceuil.jpg);
+    background-size: 100% 100%; /* Ajuste l’image à toute la page sans perdre de détails */
+    background-position: top center; /* Centre l’image */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    image-rendering: crisp-edges; /* Améliore la netteté sur certains navigateurs */
+}
+
+
+h1{
+    position: absolute;
+    top: 165px; /* Ajuste selon ton besoin */
+    right: 150px; /* Ajuste pour déplacer plus à droite */
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+    color: #96dafa; /* Bleu glacier */
+    text-shadow: 3px 3px 5px rgba(255, 255, 255, 0.8); /* Effet givré */
+}
+
+h2{
+    position: absolute;
+    top: 250px;
+    right: 80px;
+    font-family: 'Playfair Display', serif;
+    font-size: 23px;
+    color: #FFFFFF; /* Blanc pur */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.bouton{
+    position: absolute;
+    top: 355px;
+    right: 340px;
+    font-style: italic;
+    font-size: 4vh;
+}
+
+.btn{
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    color: #FFD700; /* Or pâle */
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+    padding: 10px 20px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Great+Vibes&family=Poppins:wght@300;400&display=swap');
